@@ -67,7 +67,7 @@ _[Linkedin](https://www.linkedin.com/in/ermek-abdrazakov-3b9301275/)_
 
 ## License
 
-_[[MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://en.wikipedia.org/wiki/MIT_License)_
+_[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://en.wikipedia.org/wiki/MIT_License)_
 
 
 Copyright (c) _2023_ _Ermek Abdrazakov_

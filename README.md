@@ -1,8 +1,8 @@
-# Project name
+# Super Galactic Age Calculator
 
 <h3>By Ermek Abdrazakov</h3>
 
-<p>Description of application</p>
+<p>The Super Galactic Age Calculator is a command-line application designed to calculate a user's age on different planets based on the length of a solar year on each planet. The user provides their age in Earth years, and the application converts this age into the equivalent age on Mercury, Venus, Mars, Jupiter, and Saturn.</p>
 
 <h3> Link to site on Github Pages:</h3>
 
@@ -55,7 +55,7 @@ describe('', () => {
 
 ## Description
 
-_(....)_
+_This website created using HTML, CSS, Bootstrap and JavaScript technologies._
 
 ## Link to this application:
 
@@ -67,16 +67,7 @@ _[Linkedin](https://www.linkedin.com/in/ermek-abdrazakov-3b9301275/)_
 
 ## License
 
-_[MIT](https://en.wikipedia.org/wiki/MIT_License)_
+_[[MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://en.wikipedia.org/wiki/MIT_License)_
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
 
 Copyright (c) _2023_ _Ermek Abdrazakov_

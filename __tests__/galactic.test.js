@@ -47,4 +47,11 @@ describe('AgeCalculator', () => {
         const result = ageCalculator.pastYearVenus(pastBirthAge);
         expect(result).toEqual(19);
     });
+
+    test('should correctly calculate how many years have passed a user age on Mars', () => {
+        const ageCalculator = new AgeCalculator(45);
+        const pastBirthAge = 33;
+        const result = ageCalculator.pastYearMars(pastBirthAge);
+        expect(result).toEqual(6);
+    });
 });

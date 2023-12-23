@@ -53,4 +53,8 @@ export default class AgeCalculator {
     futureYearEarth(futureBirthAge) {
         return futureBirthAge - this.age;
     }
+
+    futureYearMercury() {
+
+    }
 }

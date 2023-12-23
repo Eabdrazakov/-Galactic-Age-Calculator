@@ -41,4 +41,8 @@ export default class AgeCalculator {
 
         return result;
     }
+
+    pastYearJupiter() {
+
+    }
 }

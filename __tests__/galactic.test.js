@@ -21,4 +21,9 @@ describe('AgeCalculator', () => {
         const ageCalculator = new AgeCalculator(21);
         expect(ageCalculator.marsAgeCalculator()).toEqual(11);
     });
+
+    test('should correctly calculate the age on Jupiter', () => {
+        const ageCalculator = new AgeCalculator(21);
+        expect(ageCalculator.jupiterAgeCalculator()).toEqual(1);
+    });
 });

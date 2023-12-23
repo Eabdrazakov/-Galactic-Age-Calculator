@@ -34,7 +34,11 @@ export default class AgeCalculator {
         return result;
     }
 
-    pastYearMars() {
+    pastYearMars(pastBirthAge) {
+        const mars = this.marsAgeCalculator();
+        const truncedAge = Math.trunc(pastBirthAge / 1.88);
+        const result = mars - truncedAge;
 
+        return result;
     }
 }

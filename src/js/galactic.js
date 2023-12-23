@@ -26,4 +26,8 @@ export default class AgeCalculator {
     pastYearMercury(pastBirthAge) {
         return this.mercuryAgeCalculator() - Math.trunc(pastBirthAge / 0.24);
     }
+
+    pastYearVenus() {
+
+    }
 }

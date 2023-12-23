@@ -40,4 +40,11 @@ describe('AgeCalculator', () => {
         const result = ageCalculator.pastYearMercury(pastBirthAge);
         expect(result).toEqual(50);
     });
+
+    test('should correctly calculate how many years have passed a user age on Venus', () => {
+        const ageCalculator = new AgeCalculator(45);
+        const pastBirthAge = 33;
+        const result = ageCalculator.pastYearVenus(pastBirthAge);
+        expect(result).toEqual(19.35);
+    });
 });

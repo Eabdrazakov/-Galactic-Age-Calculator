@@ -50,7 +50,7 @@ export default class AgeCalculator {
         return result;
     }
 
-    futureYearEarth() {
-
+    futureYearEarth(futureBirthAge) {
+        return futureBirthAge - this.age;
     }
 }

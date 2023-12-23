@@ -33,4 +33,11 @@ describe('AgeCalculator', () => {
         const result = ageCalculator.pastYearEarth(pastBirthAge);
         expect(result).toEqual(12);
     });
+
+    test('should correctly calculate how many years have passed a user age on Mercury', () => {
+        const ageCalculator = new AgeCalculator(45);
+        const pastBirthAge = 33;
+        const result = ageCalculator.pastYearMercury(pastBirthAge);
+        expect(result).toEqual(50);
+    });
 });

@@ -23,7 +23,7 @@ export default class AgeCalculator {
         return this.age - pastBirthAge;
     }
 
-    pastYearMercury() {
-
+    pastYearMercury(pastBirthAge) {
+        return this.mercuryAgeCalculator() - Math.trunc(pastBirthAge / 0.24);
     }
 }

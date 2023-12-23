@@ -8,6 +8,6 @@ export default class AgeCalculator {
     }
 
     venusAgeCalculator() {
-
+        return Math.floor(this.age / 0.62);
     }
 }

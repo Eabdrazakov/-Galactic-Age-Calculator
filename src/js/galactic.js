@@ -27,7 +27,10 @@ export default class AgeCalculator {
         return this.mercuryAgeCalculator() - Math.trunc(pastBirthAge / 0.24);
     }
 
-    pastYearVenus() {
-
+    pastYearVenus(pastBirthAge) {
+        const venus = this.venusAgeCalculator();
+        const truncedAge = Math.trunc(pastBirthAge / 0.62);
+        const result = venus - truncedAge;
+        return result;
     }
 }

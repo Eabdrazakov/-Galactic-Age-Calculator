@@ -61,4 +61,11 @@ describe('AgeCalculator', () => {
         const result = ageCalculator.pastYearJupiter(pastBirthAge);
         expect(result).toEqual(1);
     });
+
+    test('should correctly calculate how many years have yet to pass until a future birthday on Earth', () => {
+        const ageCalculator = new AgeCalculator(56);
+        const pastBirthAge = 61;
+        const result = ageCalculator.futureYearEarth(pastBirthAge);
+        expect(result).toEqual(5);
+    });
 });

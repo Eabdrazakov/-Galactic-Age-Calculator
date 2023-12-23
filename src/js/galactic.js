@@ -33,4 +33,8 @@ export default class AgeCalculator {
         const result = venus - truncedAge;
         return result;
     }
+
+    pastYearMars() {
+
+    }
 }

@@ -22,4 +22,8 @@ export default class AgeCalculator {
     pastYearEarth(pastBirthAge) {
         return this.age - pastBirthAge;
     }
+
+    pastYearMercury() {
+
+    }
 }

@@ -6,4 +6,8 @@ export default class AgeCalculator {
     mercuryAgeCalculator() {
         return Math.floor(this.age / 0.24);
     }
+
+    venusAgeCalculator() {
+
+    }
 }

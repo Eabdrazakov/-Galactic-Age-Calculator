@@ -42,7 +42,11 @@ export default class AgeCalculator {
         return result;
     }
 
-    pastYearJupiter() {
+    pastYearJupiter(pastBirthAge) {
+        const jupiter = this.jupiterAgeCalculator();
+        const truncedAge = Math.trunc(pastBirthAge / 11.86);
+        const result = jupiter - truncedAge;
 
+        return result;
     }
 }

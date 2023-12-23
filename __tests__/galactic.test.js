@@ -29,7 +29,8 @@ describe('AgeCalculator', () => {
 
     test('should correctly calculate how many years have passed a user age on Earth', () => {
         const ageCalculator = new AgeCalculator(45);
-        const result = ageCalculator.pastYearEarth(33);
+        const pastBirthAge = 33;
+        const result = ageCalculator.pastYearEarth(pastBirthAge);
         expect(result).toEqual(12);
     });
 });

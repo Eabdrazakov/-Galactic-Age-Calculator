@@ -26,4 +26,10 @@ describe('AgeCalculator', () => {
         const ageCalculator = new AgeCalculator(21);
         expect(ageCalculator.jupiterAgeCalculator()).toEqual(1);
     });
+
+    test('should correctly calculate how many years have passed a user age on Earth', () => {
+        const ageCalculator = new AgeCalculator(45);
+        const result = ageCalculator.pastYearEarth(33);
+        expect(result).toEqual(12);
+    });
 });

@@ -18,4 +18,8 @@ export default class AgeCalculator {
     jupiterAgeCalculator() {
         return Math.floor(this.age / 11.86);
     }
+
+    pastYearEarth() {
+
+    }
 }

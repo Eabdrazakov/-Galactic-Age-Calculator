@@ -54,7 +54,11 @@ export default class AgeCalculator {
         return futureBirthAge - this.age;
     }
 
-    futureYearMercury() {
+    futureYearMercury(futureBirthAge) {
+        const mercury = this.mercuryAgeCalculator();
+        const truncedAge = Math.trunc(futureBirthAge / 0.24);
+        const result = truncedAge - mercury;
 
+        return result;
     }
 }

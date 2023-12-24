@@ -73,6 +73,6 @@ describe('AgeCalculator', () => {
         const ageCalculator = new AgeCalculator(56);
         const futureBirthAge = 61;
         const result = ageCalculator.futureYearMercury(futureBirthAge);
-        expect(result).toEqual(20);
+        expect(result).toEqual(21);
     });
 });

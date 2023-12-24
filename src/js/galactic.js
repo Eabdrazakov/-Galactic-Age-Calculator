@@ -62,7 +62,11 @@ export default class AgeCalculator {
         return result;
     }
 
-    futureYearVenus() {
+    futureYearVenus(futureBirthAge) {
+        const venus = this.venusAgeCalculator();
+        const truncedAge = Math.trunc(futureBirthAge / 0.62);
+        const result = truncedAge - venus;
 
+        return result;
     }
 }

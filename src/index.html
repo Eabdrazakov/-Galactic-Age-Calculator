@@ -16,8 +16,10 @@
         <label for="Enter/age">Enter your future age:</label>
         <input type="number" id="futureAge" required>
         <button type="submit">Submit</button>
+        <button type="reset" id="resetButton">Reset</button>
     </form>
     <div id="currentDiv" class="hidden">
+        <h6>Current age on other worlds.</h6>
         <ul>
             <li><span id="currentEarth"></span></li>
             <li><span id="currentMercury"></span></li>
@@ -27,6 +29,7 @@
         </ul>
     </div>
     <div id="pastDiv" class="hidden">
+        <h6>Years have passed since the birthday on other worlds.</h6>
         <ul>
             <li><span id="pastEarth"></span></li>
             <li><span id="pastMercury"></span></li>
@@ -36,6 +39,7 @@
         </ul>
     </div>
     <div id="futureDiv" class="hidden">
+        <h6>Years until your future birthday on other worlds.</h6>
         <ul>
             <li><span id="futureEarth"></span></li>
             <li><span id="futureMercury"></span></li>

@@ -89,4 +89,11 @@ describe('AgeCalculator', () => {
         const result = ageCalculator.futureYearMars(futureBirthAge);
         expect(result).toEqual(3);
     });
+
+    test('should correctly calculate how many years have yet to pass until a future birthday on Jupiter', () => {
+        const ageCalculator = new AgeCalculator(56);
+        const futureBirthAge = 61;
+        const result = ageCalculator.futureYearJupiter(futureBirthAge);
+        expect(result).toEqual(0);
+    });
 });

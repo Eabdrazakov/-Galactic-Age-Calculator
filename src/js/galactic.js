@@ -77,4 +77,8 @@ export default class AgeCalculator {
 
         return result;
     }
+
+    futureYearJupiter() {
+
+    }
 }

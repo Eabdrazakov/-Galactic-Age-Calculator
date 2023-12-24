@@ -4,7 +4,7 @@ describe('AgeCalculator', () => {
 
     test('should correctly create an age calculator object', () => {
         const ageCalculator = new AgeCalculator(21);
-        expect(ageCalculator.age).toEqual(21);
+        expect(ageCalculator.getAge()).toEqual(21);
     });
 
     test('should correctly calculate the age on Mercury', () => {

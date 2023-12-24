@@ -78,7 +78,11 @@ export default class AgeCalculator {
         return result;
     }
 
-    futureYearJupiter() {
+    futureYearJupiter(futureBirthAge) {
+        const jupiter = this.jupiterAgeCalculator();
+        const truncedAge = Math.trunc(futureBirthAge / 11.86);
+        const result = truncedAge - jupiter;
 
+        return result;
     }
 }

@@ -61,4 +61,8 @@ export default class AgeCalculator {
 
         return result;
     }
+
+    futureYearVenus() {
+
+    }
 }

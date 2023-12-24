@@ -70,7 +70,11 @@ export default class AgeCalculator {
         return result;
     }
 
-    futureYearMars() {
+    futureYearMars(futureBirthAge) {
+        const mars = this.marsAgeCalculator();
+        const truncedAge = Math.trunc(futureBirthAge / 1.88);
+        const result = truncedAge - mars;
 
+        return result;
     }
 }

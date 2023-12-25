@@ -148,7 +148,7 @@ _This website created using HTML, CSS, Bootstrap and JavaScript technologies._
 
 ## Link to this application:
 
-_[Open]()_
+Open]()_
 
 ## Contact information
 

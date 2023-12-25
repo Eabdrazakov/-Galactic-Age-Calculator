@@ -6,7 +6,7 @@
 
 <h3> Link to site on Github Pages:</h3>
 
-_[GitHub page link](https://github.com/Eabdraza)_
+_[GitHub page link]([https://github.com/Eabdraza](https://github.com/Eabdrazakov/Galactic-Age-Calculator))_
 
 
 ## Technologies Used

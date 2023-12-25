@@ -6,7 +6,7 @@
 
 <h3> Link to site on Github Pages:</h3>
 
-_[GitHub page link](https://github.com/Eabdraza](https://github.com/Eabdrazakov/Galactic-Age-Calculator/)_
+_[GitHub page link](https://github.com/Eabdrazakov)_
 
 
 ## Technologies Used
@@ -27,7 +27,7 @@ _[GitHub page link](https://github.com/Eabdraza](https://github.com/Eabdrazakov/
 
 <p>To get started, open your terminal or command promt and use the following command to do so:</p>
 
-* _1. Clone this repository to your desktop._
+* _1. Clone this repository to your desktop https://github.com/Eabdrazakov/Galactic-Age-Calculator._
 * _2. Navigate to the top level of the directory._
 * _3. Right-click on `index.html`._
 * _4. Install all packages with `$ npm install`._
@@ -144,11 +144,9 @@ describe('AgeCalculator', () => {
 
 ## Description
 
-_This website created using HTML, CSS, Bootstrap and JavaScript technologies._
+_This website created using HTML, CSS, Bootstrap,JavaScript,Test-Driven Development, Visual Studio Code, GIT, 
+Node.js and npm, npm Packages, Linter(ESLint), Testing Framework(Jest) technologies._
 
-## Link to this application:
-
-Open]()_
 
 ## Contact information
 
